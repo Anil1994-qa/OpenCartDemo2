@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-13T19:29:23 IST" name="Master Suite" finished-at="2025-05-13T19:29:55 IST" duration-ms="31116">
+    <groups>
+    </groups>
+    <test started-at="2025-05-13T19:29:23 IST" name="Test" finished-at="2025-05-13T19:29:55 IST" duration-ms="31116">
+      <class name="testCase.TC_LT_002">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_LT_002@c8c12ac]" started-at="2025-05-13T19:29:45 IST" name="Setup" finished-at="2025-05-13T19:29:52 IST" duration-ms="7367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testlogin()[pri:0, instance:testCase.TC_LT_002@c8c12ac]" started-at="2025-05-13T19:29:52 IST" name="testlogin" finished-at="2025-05-13T19:29:54 IST" duration-ms="2083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_LT_002@c8c12ac]" started-at="2025-05-13T19:29:54 IST" name="tearDown" finished-at="2025-05-13T19:29:55 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_LT_002 -->
+      <class name="testCase.TC_AR_001">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC_AR_001@7f3b84b8]" started-at="2025-05-13T19:29:24 IST" name="Setup" finished-at="2025-05-13T19:29:35 IST" duration-ms="10562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verity_account_registration()[pri:0, instance:testCase.TC_AR_001@7f3b84b8]" started-at="2025-05-13T19:29:35 IST" name="verity_account_registration" finished-at="2025-05-13T19:29:44 IST" duration-ms="9000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verity_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_AR_001@7f3b84b8]" started-at="2025-05-13T19:29:44 IST" name="tearDown" finished-at="2025-05-13T19:29:45 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_AR_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>
